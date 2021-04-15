@@ -1,0 +1,5 @@
+TABLA DE TRANSICIONES DEL AFD
+Ftran	0	1 
+A	E	E<-
+E	E	F 
+F	E	B*
