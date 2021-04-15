@@ -1,0 +1,15 @@
+Intrucciones:
+-Todas las lineas deben tener un indicador al final, incluyendo la primera: '<' , '*' , '_'
+-Los estados solo pueden ser caracteres
+-Separar los estados por TAB
+-Indicar el estado inicial con '<-'
+-Indicar el estado final con '*'
+-Indicar el estado inicial y final con '+'
+TABLA DE TRANSICIONES DEL AFD
+Ft	0	1  
+A	B	D<-
+B	E	C 
+C	C	C*
+D	E	D 
+E	E	F 
+F	E	D*
