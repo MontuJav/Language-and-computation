@@ -1,0 +1,16 @@
+1. La letra "e" denota el símbolo epsilon.
+2. X es el tope de la pila.
+3. El estado inicial es q0.
+
+instruccion:(q0,e,x)=(A,zx)
+instruccion:(A,a,z)=(A,az)
+instruccion:(A,a,a)=(A,aa)
+instruccion:(A,b,a)=(B,e)
+instruccion:(B,b,a)=(B,e)
+instruccion:(B,e,a)=(C,a)
+instruccion:(B,b,z)=(C,z)
+instruccion:(C,c,a)=(C,e)
+instruccion:(C,c,b)=(C,e)
+instruccion:(C,c,z)=(C,z)
+instruccion:(C,e,z)=(p,e)
+instruccion:(p,e,x)=(p,e)
