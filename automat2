@@ -1,0 +1,18 @@
+  Automata a pila por pila vacia
+
+Instrucciones:
+1. El estado inicial simpre se denota como "q0"
+2. La pila tiene el simbolo "x" como tope de pila.
+3. El simbolo "e" denota epsilon.
+
+Delta:(q0,e,x)=(A,zx)
+Delta:(A,a,z)=(A,az)
+Delta:(A,a,a)=(A,aa)
+Delta:(A,e,z)=(B,z)
+Delta:(A,b,a)=(B,e)
+Delta:(B,b,a)=(B,e)
+Delta:(B,c,z)=(C,z)
+Delta:(C,c,z)=(C,z)
+Delta:(C,e,z)=(p,e)
+Delta:(p,e,z)=(p,e)
+Delta:(p,e,x)=(p,e)
